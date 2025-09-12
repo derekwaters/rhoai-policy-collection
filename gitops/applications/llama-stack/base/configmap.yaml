@@ -158,5 +158,9 @@ data:
       provider_id: model-context-protocol
       mcp_endpoint:
         uri: http://fast-mcp-tools.agent-demo.svc.cluster.local:8000/sse
+    - toolgroup_id: mcp::aap
+      provider_id: model-context-protocol
+      mcp_endpoint:
+        uri: http://route-mcp-server-app-mcp.apps.cluster-gkh96.gkh96.sandbox554.opentlc.com/sse
     server:
       port: 8321
