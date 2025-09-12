@@ -158,7 +158,7 @@ data:
       provider_id: model-context-protocol
       mcp_endpoint:
         uri: http://fast-mcp-tools.agent-demo.svc.cluster.local:8000/sse
-    - toolgroup_id: mcp::aap
+    - toolgroup_id: mcp::ansible-aap-server
       provider_id: model-context-protocol
       mcp_endpoint:
         uri: http://route-mcp-server-app-mcp.apps.cluster-gkh96.gkh96.sandbox554.opentlc.com:80/sse
