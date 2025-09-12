@@ -161,6 +161,6 @@ data:
     - toolgroup_id: mcp::aap
       provider_id: model-context-protocol
       mcp_endpoint:
-        uri: http://route-mcp-server-app-mcp.apps.cluster-gkh96.gkh96.sandbox554.opentlc.com/sse
+        uri: http://route-mcp-server-app-mcp.apps.cluster-gkh96.gkh96.sandbox554.opentlc.com:80/sse
     server:
       port: 8321
